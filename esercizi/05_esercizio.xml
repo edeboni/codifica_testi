@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+    Quinto Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 05_esercizio.xml   
+    descrizione:
+    Definire i seguenti elementi:
+    elemento root: TEI
+    elementi figli:
+      header (obbligatorio una occorrenza)
+      facsimile (opzionale una occorrenza)
+      text (obbligatorio almeno una occorrenza)
+    Gli elementi header, facsimile e text hanno tutti un content model testuale
+-->
+<!DOCTYPE TEI [
+<!ELEMENT TEI (header, facsimile?, text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+]>
+<TEI>
+    <header>header del documento</header>
+    <!-- nodo facsimile opzionale -->
+    <text>testo uno</text>
+    <text>testo due</text>
+</TEI>
