@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+    Quarto Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 04_esercizio.xml   
+    descrizione:
+    Inserire all'interno di un tag un frammento di codice HTML 
+-->
+<radice>
+    <codice_html>
+    <![CDATA[
+    <h1>un titolo</h1>
+    <p>un paragrafo</p>
+    ]]>
+    </codice_html>
+</radice>
