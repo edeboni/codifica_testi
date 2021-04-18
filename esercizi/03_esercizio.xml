@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+    Terzo Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 03_esercizio.xml
+    descrizione:
+    Aprire il file XML non ben formato presente nel repository github
+    validarlo con un parser XML
+    correggerlo (commentando gli errori e le modifiche)
+    aggiungere un figlio (child) ad un elemento
+    aggiungere un fratello (sibling) ad un elemento
+-->
+<!-- versione non corretta:
+<radice>
+    <figlio>
+</radice>
+    </figlio> 
+-->
+<!-- errore : il nodo figlio viene chiuso dopo la chiusura del nodo radice -->
+<!-- correzione : annidamento nodo figlio interamente all'interno del nodo radice  -->
+<!-- modifiche aggiuntive : inserimento di un nodo figlio (in questo caso il nodo figlio2) e un nodo fratello -->
+<radice>
+    <figlio>
+        <figlio2></figlio2>
+    </figlio>
+    <fratello>
+    </fratello>
+</radice>
