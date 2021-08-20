@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<!--
+    Nono Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 09_esercizio.xml   
+    descrizione:
+    Utilizzare puntatori, note, lista, glossario, marcare nomi, rs, term.
+-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Edizione digitale di Erika Deboni
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    Erika Deboni
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <title>
+                        <note n="1" place="foot" resp="ED">2018 ITALIANSONGWRITERS.COM – email: info@theitaliansong.com</note>
+                        Samuele Bersani-The italian song - Italian cantautori in translation
+                    </title>
+                    <author>Sara De angelis </author>
+                    <publisher>https://theitaliansong.com/</publisher>
+                    <date>2021</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div xml:lang="it" >
+                <p >
+                    Nato in <placeName>Romagna</placeName> nel <date>1970 </date>, <name xml:id="SB"><rs type="person">Samuele Bersani</rs></name> si trasferisce giovanissimo a <placeName>Bologna</placeName>, dove viene notato 
+                    da <name>"Lucio Dalla</name> che gli fa addirittura aprire un suo concerto con la canzone <title>Il Mostro</title>. <name><surname> <ref target="#SB">Bersani</ref></surname></name> dunque, 
+                    giovanissimo, di bella presenza, appartenente allo stesso <foreign xml:lang="fr"> entourage</foreign> bolognese che ha prodotto prima di 
+                    lui gruppi come gli<name><orgName> Stadio</orgName></name>  o altri cantautori come <name><addName>Ron,</addName></name> diventa immediatamente famoso apparendo nei 
+                    programmi televisivi più popolari. Nel suo <foreign xml:lang="en">background</foreign> c’è la musica, fin da adolescente, ma anche la 
+                    passione per il cinema, che affiorerà poi nei suoi testi nel corso degli anni. Egli stesso racconterà, 
+                    in alcune interviste, l’influenza che hanno esercitato su di lui certi festival di cinema nonché <name> Tonino 
+                    Guerra</name>, poeta romagnolo e sceneggiatore di <title> Amarcord</title> di <name>Federico Fellini</name>, del quale segue a sedici anni un 
+                    corso di sceneggiatura.
+                </p>
+                <p>    
+                    <title>Chicco e Spillo</title>, la sua prima canzone di <rs type="person">cantautore</rs>  emergente, diventa anche un grande successo radiofonico
+                    e un vero e proprio tormentone estivo, sostenuto senz’altro dalla telegenia e dalla performance interpretativa
+                    dell’<ref target="#SB">autore</ref>, ma senza dubbio per la potenza stessa della canzone, per l’orecchiabilità della musica, in palese 
+                    contrasto, in particolare, col testo: la storia di due ragazzi di periferia che, per denaro o per noia,  si 
+                    lanciano in una rapina fino a morire in un incidente in motorino durante la fuga dalla polizia. Con asciuttezza 
+                    e sobrietà il testo descrive una periferia sporca, disagiata, abbandonata a se stessa, nella quale si muovono 
+                    due adolescenti che, non diversamente da certi personaggi della letteratura degli scrittori cosiddetti “cannibali”, 
+                    sembrano in cerca di denaro facile più che altro per sfuggire al tedio esistenziale. <name><surname><ref target="#SB" /> Bersani</surname></name> ci mette di suo, 
+                    in tv come nel video che accompagna la canzone, una interpretazione apparentemente distaccata, ma intensa, che 
+                    lascia ben presagire le sue caratteristiche di <rs type="person">cantautore</rs>  rigoroso, attento ai temi della <term xml:id="AL">alienazione</term><gloss target="#AL">
+                        Secondo Marx, alienazione è quel processo che estranea un essere umano da ciò che fa fino al punto di non 
+                        riconoscersi in sé stesso.</gloss> esistenziale, 
+                    dell’incomunicabilità, come pure alla critica feroce di certi aspetti della società italiana, al suo immobilismo 
+                    dell’incomunicabilità e alla sua ipocrisia.
+                </p>
+                <p>    
+                    Nei successi che seguono (dall’album <title>Freak</title>) emergono gli stessi temi con una ironia tagliente, che serve a 
+                    ritrarre in maniera ancora più efficace un mondo borghese, attratto da certi miti anni <date>’70 </date> (l’<name><placeName>India</placeName></name>, il simbolo 
+                    della pace, le collane di perline…) intrecciati con un solido provincialismo inattaccabile ("<l>hai più pensato a 
+                    quel progetto di esportare la piadina romagnola?</l> ”, in <title>>Freak</title>). L’incomunicabilità emotiva, le difficoltà di 
+                    relazione, una costante dei testi di<name><surname><ref target="#SB" /> Bersani</surname></name>, appaiono ancora nello stesso album con un altro dei grandi 
+                    successi commerciali del<rs type="person">cantautore</rs>,<title>Spaccacuore</title>, con un tono intimista e almeno apparentemente autobiografico 
+                    che rimarrà caratteristico nel corso degli anni (“<l>So chi sono io</l>/<l> anche se non ho letto Freud</l>/<l>so come sono fatto 
+                    io</l>/<l>ma non riesco a sciogliermi</l> ”) e che gli garantisce grande successo e popolarità.
+                </p>
+                <p>    
+                    A questo stesso filone si può ricondurre <title>Giudizi Universali</title>, forse uno dei migliori testi di<name><surname><ref target="#SB" /> Bersani</surname></name>, certamente
+                    uno dei più interessanti e conosciuti, che appare nel <date>’98</date>, nel quale un io narrante mette a fuoco la propria 
+                    difficoltà di relazione e di comunicazione (“<l>Troppo cerebrale per capire che si può star bene senza calpestare 
+                    il cuore</l>/<l>Ci si passa sopra almeno due o tre volte i piedi come sulle aiuole</l>”).
+                </p>
+            </div>
+           
+            <div>
+                <list>
+                    <item>
+                        alienazione esistenziale 
+                        
+                    </item>    
+    
+                </list> 
+            </div>
+
+        </body>
+
+    </text>
+
+
+
+</TEI>
