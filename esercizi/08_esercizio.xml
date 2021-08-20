@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<!--
+    Ottavo Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 08_esercizio.xml   
+    descrizione:
+    -Marcare un testo plain text di circa 3000 caratteri a piacere. 
+    -Inserire prologo XML 
+    -Marcare la struttura usando gli elementi fin qui descritti, in particolare marcare 
+     tutti i paragrafi usando <p> e la struttura editoriale usando <div>
+    -Verificare che sia ben formato con xmllint salvare il file XML su github 
+-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Edizione digitale di Erika Deboni
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    Erika Deboni
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <title>
+                        The italian song - Italian cantautori in translation
+                    </title>
+                    <author>Sara De angelis </author>
+                    <publisher>https://theitaliansong.com/</publisher>
+                    <date>2021</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div xml:lang="it" >
+                <p >
+                    Nato in <placeName>Romagna</placeName> nel <date>1970 </date>, <name>Samuele Bersani</name> si trasferisce giovanissimo a <placeName>Bologna</placeName>, dove viene notato 
+                    da <name>Lucio Dalla</name> che gli fa addirittura aprire un suo concerto con la canzone <title>Il Mostro</title>. <name><surname>Bersani</surname></name> dunque, 
+                    giovanissimo, di bella presenza, appartenente allo stesso <foreign xml:lang="fr"> entourage</foreign> bolognese che ha prodotto prima di 
+                    lui gruppi come gli<name><orgName> Stadio</orgName></name>  o altri cantautori come <name><addName>Ron,</addName></name> diventa immediatamente famoso apparendo nei 
+                    programmi televisivi più popolari. Nel suo <foreign xml:lang="en">background</foreign> c’è la musica, fin da adolescente, ma anche la 
+                    passione per il cinema, che affiorerà poi nei suoi testi nel corso degli anni. Egli stesso racconterà, 
+                    in alcune interviste, l’influenza che hanno esercitato su di lui certi festival di cinema nonché <name> Tonino 
+                    Guerra</name>, poeta romagnolo e sceneggiatore di <title> Amarcord</title> di <name>Federico Fellini</name>, del quale segue a sedici anni un 
+                    corso di sceneggiatura.
+                </p>
+                <p>    
+                    <title>Chicco e Spillo</title>, la sua prima canzone di cantautore emergente, diventa anche un grande successo radiofonico
+                    e un vero e proprio tormentone estivo, sostenuto senz’altro dalla telegenia e dalla performance interpretativa
+                    dell’autore, ma senza dubbio per la potenza stessa della canzone, per l’orecchiabilità della musica, in palese 
+                    contrasto, in particolare, col testo: la storia di due ragazzi di periferia che, per denaro o per noia,  si 
+                    lanciano in una rapina fino a morire in un incidente in motorino durante la fuga dalla polizia. Con asciuttezza 
+                    e sobrietà il testo descrive una periferia sporca, disagiata, abbandonata a se stessa, nella quale si muovono 
+                    due adolescenti che, non diversamente da certi personaggi della letteratura degli scrittori cosiddetti “cannibali”, 
+                    sembrano in cerca di denaro facile più che altro per sfuggire al tedio esistenziale. <name><surname> Bersani</surname></name> ci mette di suo, 
+                    in tv come nel video che accompagna la canzone, una interpretazione apparentemente distaccata, ma intensa, che 
+                    lascia ben presagire le sue caratteristiche di cantautore rigoroso, attento ai temi della alienazione esistenziale, 
+                    dell’incomunicabilità, come pure alla critica feroce di certi aspetti della società italiana, al suo immobilismo 
+                    dell’incomunicabilità, come pure allacritica feroce di certi aspetti della società italiana, al suo immobilismo 
+                    e alla sua ipocrisia.
+                </p>
+                <p>    
+                    Nei successi che seguono (dall’album <title>Freak</title>) emergono gli stessi temi con una ironia tagliente, che serve a 
+                    ritrarre in maniera ancora più efficace un mondo borghese, attratto da certi miti anni <date>’70 </date> (l’<name><placeName>India</placeName></name>, il simbolo 
+                    della pace, le collane di perline…) intrecciati con un solido provincialismo inattaccabile ("<l>hai più pensato a 
+                    quel progetto di esportare la piadina romagnola?</l> ”, in <title>>Freak</title>). L’incomunicabilità emotiva, le difficoltà di 
+                    relazione, una costante dei testi di<name><surname> Bersani</surname></name>, appaiono ancora nello stesso album con un altro dei grandi 
+                    successi commerciali del cantautore,<title>Spaccacuore</title>, con un tono intimista e almeno apparentemente autobiografico 
+                    che rimarrà caratteristico nel corso degli anni (“<l>So chi sono io</l>/<l> anche se non ho letto Freud</l>/<l>so come sono fatto 
+                    io</l>/<l>ma non riesco a sciogliermi</l> ”) e che gli garantisce grande successo e popolarità.
+                </p>
+                <p>    
+                    A questo stesso filone si può ricondurre <title>Giudizi Universali</title>, forse uno dei migliori testi di<name><surname> Bersani</surname></name>, certamente
+                    uno dei più interessanti e conosciuti, che appare nel <date>’98</date>, nel quale un io narrante mette a fuoco la propria 
+                    difficoltà di relazione e di comunicazione (“<l>Troppo cerebrale per capire che si può star bene senza calpestare 
+                    il cuore</l>/<l>Ci si passa sopra almeno due o tre volte i piedi come sulle aiuole</l>”).
+                </p>
+            </div>
+
+        </body>
+
+    </text>
+
+
+
+</TEI>

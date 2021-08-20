@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./fileDTD.dtd">
+<!--
+    Settimo Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 07_esercizio.xml   
+    descrizione:
+    includere all’interno di un documento XML la dichiarazione del tipo, 
+    definire internamente gli elementi e gli attributi e validare. 
+    Inserire nel prologo di un documento XML la dichiarazione del tipo di documento e validare. 
+    Creare un file esterno con estensione .dtd prima di includerlo nel prologo XML.
+-->
+<TEI>
+    <header>header del documento</header>
+    <facsimile source="facsimile01">fac-simile</facsimile>
+    <text> <!-- <text id="testo01">-->
+    testo uno
+    <seg>segmento</seg>
+    </text>
+</TEI>
