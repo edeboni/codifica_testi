@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<!--
+    Decimo Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 10_esercizio.xml   
+    descrizione:
+    codificare usando gli opportuni elementi TEI:
+    -un articolo di rivista 
+   
+-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Ho perso mio fratello. Con i talebani è terrore
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Edizione digitale: <date when="2021-08-21">21 Agosto 2021</date>.</edition>
+                <respStmt>
+                    <resp>Codificata da:</resp> 
+                    <name>Erika Deboni</name>
+                  </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher xml:lang="it" ref="https://www.larena.it/territori/citt%C3%A0/ho-perso-mio-fratello-con-i-talebani-e-terrore-1.8852029?refresh_ce">
+                    Edizione digitale del quotidiano L'Arena di Verona
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <title>
+                        Ho perso mio fratello. Con i talebani è terrore
+                    </title>
+                    <author>Francesca Lorandi </author>
+                    <publisher>L'Arena di Verona</publisher>
+                    <date> 21 Agosto 2021 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div xml:lang="it">
+                <p> «I <orgName>talebani</orgName> sono sempre gli stessi. Non credete quando fanno i moderati. Non sono cambiati, 
+                    sono come degli animali». <name>Valijan Allahmir</name> lo sa bene: la scorsa settimana in questa guerra che 
+                    sta devastando il suo <ref target="#A" /> Paese ha perso il fratello 19enne. E lui, che di anni ne ha 26 e ha lasciato 
+                    l’<country xml:id="A">Afghanistan</country> quando ne aveva 14, vivendo in <country> Iran</country>
+                    e in <country> Turchia</country> prima di arrivare in<country> Italia</country>, a <placeName>Verona</placeName>, 
+                    si sente impotente: non sa come aiutare la mamma, le sorelle, il fratello rimasti a nella loro casa, 
+                    a una manciata di chilometri da <placeName>Kabul</placeName>, la capitale cuore della crisi afghana.
+                    <q>Quando ha sentito l’ultima volta la sua famiglia?</q>
+                    <q>Tre giorni fa sono riuscito a parlare con mia mamma e con mio fratello, che ha 16 anni. Sono 
+                    molto preoccupati, costretti a restare barricati in strada perché tutte le strade sono bloccate 
+                    sotto il controllo dei talebani. Non riescono a uscire e non c’è modo per procurarsi da mangiare 
+                    né da bere. Chi sta male non può nemmeno trovare farmaci o medici. Sono spaventati e terrorizzati 
+                    per quello che possono fare i talebani: lo abbiamo già potuto vedere nei giorni scorsi...</q>
+                    <q>Perché, cosa è successo?</q>
+                    <q> La scorsa settimana hanno preso nel giro di poche ore il controllo di <placeName xml:id="k">Kabul</placeName>: uno dei miei fratelli, 
+                    <name>Muhamad Anef</name>, di 19 anni, si trovava là, in <ref target="#k">città</ref>. Alla sera mia madre non lo ha visto rientrare e 
+                    tutta la famiglia ha iniziato a preoccuparsi. Con i vicini, hanno provato a cercarlo ovunque senza 
+                    trovarlo. Tre giorni dopo il suo cadavere è stato rinvenuto in un’altra provincia: lo avevano ucciso 
+                    i talebani. Lui non faceva parte di nessuna fazione, è stato ucciso senza motivo. E cercare di capire come 
+                    e perché sia successo è inutile: nessuno lo spiega, non si possono denunciare episodi del genere, non c’è modo 
+                    di chiedere aiuto. Così le famiglie sono lasciate nella disperazione.</q>
+                    <q>Eppure questi gruppi di talebani nei primi giorni hanno cercato di presentarsi come moderati. 
+                    C’è da credergli?</q>
+                    <q>Ma assolutamente no: nessuno crede loro. Non sono cambiati, sono sempre gli stessi: gente che 
+                    arriva dalle montagne, che non ha cultura. Mia madre mi ha raccontato che hanno devastato 
+                    territori interi, ucciso bambini e donne incinte, con il solo obiettivo di Governare ma senza 
+                    spiegare come, in che modo, con quali obiettivi, come farebbe chiunque volesse prendere il 
+                    potere. Io amo il mio <ref target="#A">Paese</ref> d’origine, la sua cultura e non voglio i talebani: con loro 
+                    l’<country ref="#A">Afghanistan</country> sarà sempre più povero e pericoloso.</q>
+                    <q>Cosa pensa dell’intervento della comunità internazionale?</q>
+                    <q>Hanno sbagliato, sono loro i veri perdenti in questa guerra. Hanno abbandonato l’<country ref="#A">Afghanistan</country> in 
+                    questa condizione: penso alla fuga degli americani di <name><surname>Biden</surname></name> avvenuta in poche ore. E quello che 
+                    sappiamo su quanto sta accadendo è parziale: i <orgName>giornalisti</orgName> che dicono la verità vengono uccisi, 
+                    mentre i<orgName> mediatori</orgName> e tutti coloro che hanno lavorato col governo afghano vengono cercati casa per 
+                    casa ed eliminati, con rappresaglie sui parenti. Si cerca di scappare ma i talebani hanno chiuso 
+                    tutte le strade e all’aeroporto di <placeName>Kabul</placeName> è il caos.</q>
+                    <q> Il gruppo ha un accordo con gli <country> Stati Uniti</country> “per non fare nulla” fino a dopo il <date> 31 agosto</date>, data 
+                    prevista per il completamento delle operazioni di ritiro. C’è qualcosa che lei potrebbe fare per 
+                    la sua famiglia?</q>
+                    <q>Non ho la possibilità di fare nulla. Io vivo qui da anni, lavoro come mediatore nei centri di 
+                    accoglienza, mi trovo molto bene e da sempre mando alla mia famiglia dei soldi per aiutare mia 
+                    mamma e i miei fratelli a vivere. Ma ora non è più possibile, le banche sono chiuse, non c’è 
+                    modo per farglieli avere. Vorrei poter andare a prendere, con l’aiuto dello <orgName type="institution"> Stato </orgName> italiano, mio 
+                    fratello sedicenne, portarlo qui e garantirgli così una vita migliore.</q>
+                    
+                </p>
+            </div>
+           
+        </body>
+
+    </text>
+
+
+
+</TEI>

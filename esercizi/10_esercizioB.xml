@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<!--
+    Decimo Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 10_esercizio.xml   
+    descrizione:
+    codificare usando gli opportuni elementi TEI:
+    -una cartolina 
+-->
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina alla Signorina Olivia - Edizione digitale</title>
+                <respStmt>
+                    <resp>Trascrizione di</resp>
+                    <name>Erika Deboni</name>
+                </respStmt>
+                
+               
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studentessa Erika Deboni
+                    <date>2021</date>
+                </edition>
+                <respStmt>
+                    <resp>Codificata da </resp>
+                    <name xml:id="ED">Erika Deboni</name>
+                </respStmt>
+            </editionStmt>    
+            
+            <publicationStmt>
+                <publisher>Erika Deboni</publisher>
+                <pubPlace>Lucca</pubPlace>
+                <date when="2021">2021</date>
+            </publicationStmt>
+        
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <title>THINKING OF YOU </title>
+                    <author>Philip Boileau </author>
+                    <publisher>Editore REINTHAL e NEWMAN </publisher>
+                    <pubPlace>Luogo</pubPlace>
+                    <date>29 12 1918</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Ravenna (RA)</settlement>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+            
+                
+                <listPerson>
+                    <person>  
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname> 
+                        </persName>   
+                        <sex>F</sex>
+                    </person> 
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RA">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RA</district>
+                        <country>IT</country>
+                        <note>...</note>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName>...</placeName>
+                    <date type="postage" when="1918-12-29">1916/12/19</date>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna pensierosa</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language xml:lang="IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+  
+    <text type="cartolina" xml:id="xx">
+      
+        <body>
+            <div type="fronte">
+                <figure>
+                    <graphic url="nomedamettere/images/nomefile.jpg" />
+                    <figDesc>Donna sdraiata supina e appoggiata su un cuscino con la testa appoggiata sulla mano sinistra</figDesc>
+                    <head>THINKING OF YOU Philip Boileau</head>
+                </figure>
+            </div>
+            <div facs="..." type="retro">
+                <div type="message">
+                    <!-- ... -->
+                    <p>Matera 29/12/1018</p>
+                    <p>Per auguri vivissimi a tutta la famiglia </p>
+                    <signed>firma</signed> <!-- Non capisco il nome -->
+                </div>
+                <div type="destination">
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                            <mentioned>MATEI ICA </mentioned>
+                            <date when="1918-12-29">1916/12/19</date>
+                        </stamp>
+                        <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine>Signorina</addrLine>
+                            <addrLine><persName ref="#OT">Olivia Turtura </persName></addrLine>
+                            <addrLine>Via G. Rossi 53</addrLine>
+                            <addrLine> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
