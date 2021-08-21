@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<!--
+    Undicesimo Esercizio
+    nome: Erika
+    cognome: Deboni
+    nome del file: 11_esercizio.xml   
+    descrizione:
+    Trascrivere e codificare un frammento di lettera di Bellini (Vincenzo Bellini a Carlo Pepoli, in Puteaux, 
+    26 giugno 1834).
+    "Sig.r Duca Intendente(Duca di Sammartino)
+    Vincenzo Bellini, e (Vincenzo) Ferlito spinto dal proprio genio, dall’esempio, e dalla Educazione, 
+    che ha ricevuto dai suoi, Avo (Vincenzo Tobia Bellini), e Padre (Rosario Bellini), "
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Carlo Pepoli, in Puteaux, 26 giugno 1834 </title>
+				<author>Vincenzo Bellini</author>
+				<respStmt>
+					<resp>trascritto da</resp>
+					<name>Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition> Editione Digitale
+					<date when="2018-05">Maggio 2018</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher> Fondazione Bellini </publisher>
+                <pubPlace>Catania </pubPlace>
+            </publicationStmt>
+			<sourceDesc>
+				<bibl source="TEI-ListBibl.xml#Seminara2017">
+							<citedRange unit="page" from="368" to="368">368</citedRange>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Italia</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						
+						
+						<idno type="inventory">LL1.1</idno>						
+						<altIdentifier><idno type="collocation">in esposizione Casa Natale, sala B, vetrina 4, ripiano 2, I</idno></altIdentifier></msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it">Vincenzo Bellini</author>
+							<title>
+								<persName role="composer">Vincenzo Bellini</persName> a <persName role="librettist">Carlo Pepoli</persName>, in	<placeName>Puteaux</placeName>,								
+                                <date when="1834-06-26">26 giugno 1834</date>
+							</title>
+							<textLang mainLang="it" otherLangs="fr">italiano di inizio Ottocento con indirizzo in francese</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Carta sottile.</material>
+									<stamp> Non sono presenti né timbri, né francobolli.
+					 				</stamp>
+									<p>Lettera in buone condizioni fisiche, composta da un solo folio, piegato in più parti.
+					 				</p>
+								</support>
+								<extent>
+									<measure type="folio">1</measure>				
+								</extent>
+								<condition>
+								    <p>Lettera in buone condizioni fisiche.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="3">
+							<handNote><p>Scrittura a mano libera leggibile. Il folio fronte, nel verso inferiore, presenta due annotazioni di seconda e terza mano le cui righe sono per entrambe orientate da dx a sx e dall'alto al basso. 
+							</p></handNote>
+							<handNote xml:id="h2">							
+								<p>Una annotazione è probabilmente dovuta ad un catalogatore. 			
+								</p>
+							</handNote>
+							<handNote xml:id="h1">								
+								<p> L'altra annotazione sembra composta dalla firma autografa di Pepoli e da due piccoli disegni.
+								</p>
+							</handNote>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName role="composer">Vincenzo Bellini</persName>
+					<date when="1834-06-27" type="postmark">26 giugno 1834</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName role="librettist">Carlo Pepoli</persName>
+					<placeName type="writing">Paris</placeName>
+				</correspAction >
+				<correspContext>
+					<p></p>
+				</correspContext>
+			</correspDesc>
+
+			<textClass>
+				<keywords>			
+					<term> lettera 					
+					</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it">italiano di inizio Ottocento</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface xml:id="superf_LL1.1" n="1">			
+			<graphic url='bellini_lettera.jpg' width='2583px' height='3642px' />
+            <zone ulx="1129" uly="115" lrx="2103" lry="375" xml:id="pag1_zona1" />
+            <zone ulx="1349" uly="314" lrx="2507" lry="507" facs="pag1_zona2" />
+            <zone ulx="1185" uly="489" lrx="2528" lry="674" facs="pag1_zona3"   />
+
+        </surface>
+    </facsimile>
+
+	<text type="letter" xml:id="pagina1" subtype="manuscript">
+        <body >
+            <div type="trascrizione" xml:lang="it">
+                <pb xml:id="trascrizione_pag1"/>
+                <ab type="parag" n="1" xml:id="pagina1_paragrafo1">
+                    
+                    <lb xml:id="pagina1_linea_1" n="1" facs="pag1_zona1"/>
+                    Sig.r <name> Duca Intendente</name><supplied>(Duca di Sammartino)</supplied>
+
+                    <lb xml:id="pagina1_linea_2" n="2" facs="pag1_zona2" />
+                    <name> Vincenzo Bellini</name>, e <supplied> (Vincenzo)</supplied><name> Ferlito</name> spinto dal proprio genio, dall’esempio, e dalla 
+
+                    <lb xml:id="pagina1_linea_3" n="3" facs="pag1_zona3"  />
+                    Educazione, che ha ricevuto dai suoi,<name role="grandpa"> Avo</name> <supplied>(Vincenzo Tobia Bellini</supplied>), e <name role="father"></name> Padre<supplied> (Rosario Bellini)</supplied>, 
+                
+                
+                </ab>   
+            </div>         
+        </body>
+    </text>
+</TEI>
