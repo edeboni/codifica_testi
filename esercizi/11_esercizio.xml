@@ -20,9 +20,9 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Vincenzo Bellini a Carlo Pepoli, in Puteaux, 26 giugno 1834 </title>
-				<author>Vincenzo Bellini</author>
+				<author>Vincenzo Bellini </author>
 				<respStmt>
-					<resp>trascritto da</resp>
+					<resp>Trascritto da </resp>
 					<name>Graziella Seminara</name>
 				</respStmt>
 			</titleStmt>
@@ -63,10 +63,8 @@
 							<supportDesc>
 								<support>
 									<material>Carta sottile.</material>
-									<stamp> Non sono presenti né timbri, né francobolli.
-					 				</stamp>
-									<p>Lettera in buone condizioni fisiche, composta da un solo folio, piegato in più parti.
-					 				</p>
+									<stamp> Non sono presenti né timbri, né francobolli. </stamp>
+									<p>Lettera in buone condizioni fisiche, composta da un solo folio, piegato in più parti.</p>
 								</support>
 								<extent>
 									<measure type="folio">1</measure>				
@@ -95,11 +93,11 @@
 		<profileDesc>
 			<correspDesc>
 				<correspAction type="sent">
-					<persName role="composer">Vincenzo Bellini</persName>
-					<date when="1834-06-27" type="postmark">26 giugno 1834</date>
+					<persName role="composer">Vincenzo Bellini </persName>
+					<date when="1834-06-27" type="postmark">26 giugno 1834 </date>
 				</correspAction>
 				<correspAction type="received">
-					<persName role="librettist">Carlo Pepoli</persName>
+					<persName role="librettist">Carlo Pepoli </persName>
 					<placeName type="writing">Paris</placeName>
 				</correspAction >
 				<correspContext>
@@ -124,7 +122,7 @@
 			<graphic url='bellini_lettera.jpg' width='2583px' height='3642px' />
             <zone ulx="1129" uly="115" lrx="2103" lry="375" xml:id="pag1_zona1" />
             <zone ulx="1349" uly="314" lrx="2507" lry="507" facs="pag1_zona2" />
-            <zone ulx="1185" uly="489" lrx="2528" lry="674" facs="pag1_zona3"   />
+            <zone ulx="1185" uly="489" lrx="2528" lry="674" facs="pag1_zona3" />
 
         </surface>
     </facsimile>
