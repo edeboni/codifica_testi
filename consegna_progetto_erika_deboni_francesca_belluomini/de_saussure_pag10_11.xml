@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="de_saussure_pag10-11.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">Prolusioni all'Università di Ginevra</title>
+                <title type="sub">Prime tre conferenze</title>
+                <author ref="#FDS">Ferdinand De Saussure</author>
+                <respStmt>
+                    <resp>Tradotto da</resp>
+                    <name xml:id="EF">Emanuele Fadda</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>
+                    Edizione digitale:
+                    <date when="2021-08">Agosto 2021</date>.
+                </edition>
+                <respStmt xml:id="EDeFB">
+                    <resp>Codificata da:</resp>
+                    <name xml:id="ED">Erika Deboni (578063)</name>
+                    <name xml:id="FB">Francesca Belluomini (579594)</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher xml:lang="fr" ref="https://archives.bge-geneve.ch/archives/archives/fonds/saussure_ferdinand_de/view:5892/n:89">
+                    Edizione digitale della Biblioteca di Ginevra
+                </publisher>
+                <pubPlace>Ginevra</pubPlace>
+				<availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
+            </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1">Bibliotèque de Genève</repository>
+                        <idno>BGE Ms. fr. 3951/1</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                            <author>
+                                <persName>Ferdinand De Saussure</persName>
+                            </author>
+                            <title type="uniform" xml:lang="fr">Trois premières conférences à l'Université (cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                            <textLang mainLang="fr">francese</textLang>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc material="paper" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                                <support>
+                                    le tre prolusioni sono di 30, 15 e 22 pagine di
+                                    <material>carta</material>
+                                    e un foglietto.
+                                </support>
+                                <foliation>Numerazione decimale presente negli angoli superiori delle pagine</foliation>	
+                                <condition resp="#DEeFB">
+                                    I testimoni appaiono in buone condizioni: a tratti presentano delle macchie d'inchiostro,
+                                    e risultano strappati su un fianco.
+                                </condition>
+							</supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Ogni pagina contiene circa venticinque righe, disposte su un'unica colonna.
+                                        L'autore lascia dello spazio sul lato sinistro del foglio per eventuali correzioni.
+                                    </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <p>Il testimone è autografo.</p>
+                        </handDesc>
+
+                        <typeDesc>
+                            <p>Il testo è scritto a mano, in corsivo e in alcuni luoghi critici appare poco comprensibile.</p>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <p>
+                                La bozza è stata scritta da Ferdinand De Saussure.
+                                Il testo, che probabilmente è stato pensato per la redazione di una brochure, è stato presentato durante delle
+                                conferenze che si sono svolte a Ginevra in occasione delle prime lezioni
+                                del corso di
+                                <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>
+                                del
+                                <date when="1891-11-06">6</date>,
+                                <date when="1891-11-10">10</date>
+                                e
+                                <date when="1891-11-13">13 novembre 1891</date>.
+                            </p>
+                        </origin>
+                        <acquisition>
+                            <p>
+                                Successivamente il manoscritto è stato ceduto alla Biblioteca di
+                                <placeName>Ginevra</placeName>
+                                .
+                            </p>
+                        </acquisition>
+                    </history>
+
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <profileDesc>
+
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+
+            <settingDesc>
+                <setting>
+                    <name>
+                        <placeName>Ginevra</placeName>
+                        , Svizzera
+                    </name>
+                    <time>
+                        <date when="1891-11">Novembre 1891</date>
+                    </time>
+                </setting>
+            </settingDesc>
+
+        </profileDesc>
+
+    </teiHeader>
+
+    <facsimile>
+
+        <surface xml:id="superf_pag10" n="1">
+            <graphic url='pagina_10.png' width='936px' height='1162px' />
+            <zone ulx="823" uly="138" lrx="908" lry="174" xml:id="pag10_zona1" />
+            <zone ulx="835" uly="184" lrx="901" lry="223" xml:id="pag10_zona2" />
+            <zone ulx="187" uly="210" lrx="316" lry="257" xml:id="pag10_zona3" />
+            <zone ulx="827" uly="223" lrx="904" lry="265" xml:id="pag10_zona4" />
+            <zone ulx="823" uly="268" lrx="910" lry="316" xml:id="pag10_zona5" />
+            <zone ulx="210" uly="293" lrx="904" lry="343" xml:id="pag10_zona6" />
+            <zone ulx="198" uly="454" lrx="371" lry="498" xml:id="pag10_zona7" />
+            <zone ulx="188" uly="497" lrx="360" lry="545" xml:id="pag10_zona8" />
+            <zone ulx="796" uly="348" lrx="894" lry="394" xml:id="pag10_zona9" />
+            <zone ulx="741" uly="425" lrx="913" lry="469" xml:id="pag10_zona10" />
+            <zone ulx="360" uly="543" lrx="467" lry="585" xml:id="pag10_zona11" />
+            <zone ulx="593" uly="548" lrx="759" lry="593" xml:id="pag10_zona12" />
+            <zone ulx="189" uly="627" lrx="227" lry="666" xml:id="pag10_zona13" />
+            <zone ulx="436" uly="755" lrx="559" lry="789" xml:id="pag10_zona14" />
+            <zone ulx="31" uly="625" lrx="169" lry="662" xml:id="pag10_zona15" />
+            <zone ulx="777" uly="716" lrx="901" lry="753" xml:id="pag10_zona16" />
+            <zone ulx="196" uly="751" lrx="302" lry="792" xml:id="pag10_zona17" />
+            <zone ulx="564" uly="754" lrx="731" lry="789" xml:id="pag10_zona18" />
+            <zone ulx="664" uly="799" lrx="799" lry="833" xml:id="pag10_zona20" />
+            <zone ulx="807" uly="801" lrx="914" lry="844" xml:id="pag10_zona21" />
+            <zone ulx="539" uly="913" lrx="903" lry="963" xml:id="pag10_zona22" />
+            <zone ulx="28" uly="956" lrx="227" lry="992" xml:id="pag10_zona23" />
+            <zone ulx="789" uly="966" lrx="891" lry="1001" xml:id="pag10_zona25" />
+            <zone ulx="213" uly="1004" lrx="318" lry="1039" xml:id="pag10_zona26" />
+            <zone ulx="446" uly="664" lrx="559" lry="707" xml:id="pag10_zona27" />
+            <zone ulx="643" uly="827" lrx="787" lry="873" xml:id="pag10_zona28" />
+            <zone ulx="343" uly="140" lrx="524" lry="175" xml:id="pag10_zona30" />
+            <zone ulx="26" uly="284" lrx="199" lry="361" xml:id="pag10_zona31" />
+            <zone ulx="516" uly="880" lrx="604" lry="910" xml:id="pag10_zona32"/>
+            <zone ulx="755" uly="888" lrx="917" lry="928" xml:id="pag10_zona33"/>
+            <zone ulx="215" uly="975" lrx="339" lry="994" xml:id="pag10_zona34"/>
+            <zone ulx="359" uly="966" lrx="481" lry="984" xml:id="pag10_zona35" />
+            <zone ulx="477" uly="802" lrx="521" lry="825" xml:id="pag10_zona36"/> <!-- linea 18 -->
+			<zone ulx="177" uly="1089" lrx="875" lry="1130" xml:id="pag10_zona37" /> <!--linea aggiunta sotto la riga 24-->
+            <zone ulx="585" uly="264" lrx="753" lry="306" xml:id="pag10_zona38" /> <!-- lingua fr. antico, linea 5 pag 10-->
+            <zone ulx="516" uly="181" lrx="609" lry="229" xml:id="pag10_zona39"/> <!--linea 3 errore dell'editore -->
+            <zone ulx="49" uly="43" lrx="155" lry="112" xml:id="pag10_zona40"/> <!--numero di pagina -->
+
+        </surface>
+
+        <surface xml:id="superf_pag11" n="2">
+            <graphic url='pagina_11.png' width='920px' height='1150px' />
+            <zone ulx="578" uly="93" lrx="685" lry="125" xml:id="pag11_zona1"/>
+            <zone ulx="458" uly="175" lrx="545" lry="201" xml:id="pag11_zona2"/>
+            <zone ulx="18" uly="302" lrx="205" lry="375" xml:id="pag11_zona3"/>
+            <zone ulx="20" uly="359" lrx="41" lry="383" xml:id="pag11_zona4"/>
+            <zone ulx="117" uly="305" lrx="195" lry="326" xml:id="pag11_zona5"/>
+            <zone ulx="215" uly="335" lrx="378" lry="366" xml:id="pag11_zona6"/>
+            <zone ulx="237" uly="330" lrx="475" lry="345" xml:id="pag11_zona7"/>
+            <zone ulx="539" uly="289" lrx="661" lry="327" xml:id="pag11_zona8"/>
+            <zone ulx="818" uly="303" lrx="873" lry="329" xml:id="pag11_zona9"/>
+            <zone ulx="400" uly="341" lrx="429" lry="368" xml:id="pag11_zona10"/>
+            <zone ulx="656" uly="371" lrx="861" lry="410" xml:id="pag11_zona11"/>
+            <zone ulx="212" uly="415" lrx="273" lry="447" xml:id="pag11_zona12"/>
+            <zone ulx="285" uly="418" lrx="337" lry="443" xml:id="pag11_zona13"/>
+            <zone ulx="349" uly="412" lrx="388" lry="449" xml:id="pag11_zona14"/>
+            <zone ulx="25" uly="423" lrx="192" lry="475" xml:id="pag11_zona15"/>
+            <zone ulx="36" uly="543" lrx="209" lry="567" xml:id="pag11_zona16"/>
+            <zone ulx="541" uly="406" lrx="635" lry="431" xml:id="pag11_zona17"/>
+            <zone ulx="313" uly="494" lrx="597" lry="506" xml:id="pag11_zona18"/>
+            <zone ulx="416" uly="511" lrx="501" lry="535" xml:id="pag11_zona19"/>
+            <zone ulx="218" uly="534" lrx="881" lry="579" xml:id="pag11_zona20"/>
+            <zone ulx="378" uly="660" lrx="412" lry="683" xml:id="pag11_zona21"/>
+            <zone ulx="480" uly="651" lrx="507" lry="682" xml:id="pag11_zona22"/>
+            <zone ulx="733" uly="648" lrx="892" lry="682" xml:id="pag11_zona23"/>
+            <zone ulx="204" uly="695" lrx="533" lry="727" xml:id="pag11_zona24"/>
+            <zone ulx="743" uly="687" lrx="897" lry="722" xml:id="pag11_zona25"/>
+            <zone ulx="810" uly="723" lrx="900" lry="755" xml:id="pag11_zona26"/>
+            <zone ulx="217" uly="777" lrx="342" lry="803" xml:id="pag11_zona27"/>
+            <zone ulx="583" uly="790" lrx="713" lry="818" xml:id="pag11_zona28"/>
+            <zone ulx="730" uly="752" lrx="899" lry="791" xml:id="pag11_zona29"/>
+            <zone ulx="45" uly="872" lrx="236" lry="909" xml:id="pag11_zona30"/>
+            <zone ulx="609" uly="831" lrx="679" lry="850" xml:id="pag11_zona31"/>
+            <zone ulx="730" uly="943" lrx="804" lry="975" xml:id="pag11_zona32"/>
+            <zone ulx="693" uly="823" lrx="901" lry="851" xml:id="pag11_zona33"/>
+            <zone ulx="311" uly="865" lrx="447" lry="901" xml:id="pag11_zona34"/>
+            <zone ulx="421" uly="1061" lrx="542" lry="1074" xml:id="pag11_zona35"/>
+            <zone ulx="600" uly="861" lrx="684" lry="897" xml:id="pag11_zona36"/>
+            <zone ulx="37" uly="352" lrx="73" lry="370" xml:id="pag11_zona37"/>
+            <zone ulx="295" uly="955" lrx="454" lry="988" xml:id="pag11_zona38"/>
+            <zone ulx="336" uly="504" lrx="411" lry="523" xml:id="pag11_zona39"/>
+            <zone ulx="214" uly="294" lrx="253" lry="326" xml:id="pag11_zona40"/><!--linea 6-->
+            <zone ulx="18" uly="331" lrx="46" lry="351" xml:id="pag11_zona41"/><!--linea 7-->
+            <zone ulx="402" uly="483" lrx="439" lry="504" xml:id="pag11_zona42"/><!--linea 11-->
+            <zone ulx="603" uly="983" lrx="666" lry="1018" xml:id="pag11_zona43"/><!--linea 23-->
+			<zone ulx="781" uly="1093" lrx="887" lry="1132" xml:id="pag11_zona44"/>
+            <zone ulx="60" uly="18" lrx="149" lry="102" xml:id="pag11_zona45"/> <!--numero di pagina -->
+        </surface>
+
+    </facsimile>
+
+    <text xml:lang="fr" xml:id="pagine10_11" subtype="manuscript">
+
+        <body>
+
+            <div type="trascrizione" xml:lang="fr">
+
+                <pb xml:id="trascriz_pagina10"/>
+
+                <ab type="parag" n="1" xml:id="pagina10_paragrafo1">
+                    
+                    <lb xml:id="pagina10_linea1" n="1"/>
+                    <add place="supralinear" hand="#FDS" cert="low" facs="#pag10_zona40" n="20"></add>
+                    Sans cesse par conséquent l'<term>étude générale</term>
+
+                    <lb xml:id="pagina10_linea2" n="2"/>
+                    <term>du langage</term>
+                    s'<w><subst facs="#pag10_zona30" n="20"><del hand="">alimentera</del><add>alimente</add></subst></w>
+                    des observations de
+                    <w>t<subst facs="#pag10_zona1" n="20"><del rend="overtype">t</del><add hand="#FDS">o</add></subst>u<unclear reason="faded">te</unclear></w>
+
+                    <lb xml:id="pagina10_linea3" n="3"/>
+                    sorte qui auront été <choice facs="#pag10_zona39" n="20"><sic resp="#EF">laites</sic><corr>faites</corr></choice> dans le champ par<pc force="strong" facs="#pag10_zona2" n="20">-</pc>
+
+                    <lb xml:id="pagina10_linea4" n="4" break="no"/>
+                    <pc force="strong" facs="#pag10_zona3" n="20">=</pc>ticulier de telle ou telle
+                    <term>langue</term>.
+
+                </ab>
+
+                <ab type="parag" n="2" xml:id="pagina10_paragrafo2">
+                    À supposer mèm<w><unclear facs="#pag10_zona4" n="21" reason="faded">e</unclear></w>
+
+                    <lb xml:id="pagina10_linea5" n="5"/>
+                    que l’<term>exercice de la parole</term>
+                    <choice facs="#pag10_zona38" n="21">
+                        <orig>constituât</orig>
+                        <reg>constituant</reg>
+                    </choice>
+                    chez l'<w><choice facs="#pag10_zona5" n="21"><abbr type="brevigraph">ho<am>m&#771;</am>e</abbr><expan>hom<ex>m</ex>e</expan></choice></w>
+
+                    <lb xml:id="pagina10_linea6" n="6"/>
+                    <w>
+                        <subst facs="#pag10_zona6" n="21">
+                            <del rend="overstrike" quantity="6" unit="word">
+                                une faculté naturelle, native au naturelle
+                            </del>
+                            <add place="margin" facs="#pag10_zona31" n="21" hand="#FDS">
+                                une
+                                <term>fonction naturelle</term>,
+                            </add>
+                        </subst>
+                    </w>
+
+                    <lb xml:id="pagina10_linea7" n="7"/>
+                    ce qui est le
+                    <term>point de vue</term>
+                    éminemment fau<damage facs="#pag10_zona9" n="21" quantity="1" unit="char" agent="rubbing" degree="low">x</damage>
+
+                    <lb xml:id="pagina10_linea8" n="8"/>
+                    où se placent certaines
+                    <orgName type="institution">écoles d’anthropologistes</orgName>
+
+                    <lb xml:id="pagina10_linea9" n="9"/>
+                    et
+                    <orgName type="institution">de linguistes</orgName>, 
+                    il faudrait encore absolumen<damage facs="#pag10_zona10" n="21" quantity="1" unit="char" agent="rubbing" degree="low">t</damage>
+
+                    <lb xml:id="pagina10_linea10" n="10"/>
+                    <w>
+                        <subst facs="#pag10_zona7" n="21">
+                            <del rend="double stroke" quantity="4" unit="word">main</del>
+                            <add place="supralinear" hand="#FDS">
+                                <subst><del rend="overwrite">s</del><add place="supralinear" hand="#FDS">S</add></subst>ou</add></subst>tenir que l’exercice de cette fonction n’est
+                    </w>
+
+                    <lb xml:id="pagina10_linea11" n="11"/>
+                    <w>
+                        <subst facs="#pag10_zona8" n="21"><del rend="overwrite">A</del><add place="inline" hand="#FDS">ab</add></subst>ordable pour la science que par le côté de</w>
+
+                    <lb xml:id="pagina10_linea12" n="12"/>
+                    la
+                    <term>langue</term>
+                    ou
+
+                    <subst facs="#pag10_zona11" n="21">
+                        <del rend="overstrike">ou</del>
+                        <add place="supralinear" hand="#FDS">par le c&#244;té</add>
+                    </subst>
+                    des
+                    <term>
+                        langues
+                        <hi rend="double underline">
+                            <hi rend="italic" facs="#pag10_zona12" n="21">existantes</hi></hi></term>.
+
+                </ab>
+
+                <ab type="parag" n="3" xml:id="pagina10_paragrafo3">
+
+                    <lb xml:id="pagina10_linea13" n="13"/>
+                    Mais, réciproquement, l’<term>étude de ces langues</term>
+
+                    <lb xml:id="pagina10_linea14" n="14"/>
+                    -
+                    <w>
+                        <add place="margin" hand="#FDS"/>
+                        <damage facs="#pag10_zona15" n="22" quantity="3" unit="char"><unclear reason="ink blot" agent="ink">exi</unclear>s</damage><sic>tt</sic><corr resp="#EF">t</corr>ant<sic>s</sic><corr resp="#EF">es</corr>
+                    </w>
+                    -
+                    <w>
+                        <subst facs="#pag10_zona13" n="22"><del rend="overwrite">s</del><add place="inline" hand="#FDS">S</add></subst>e condamnerait à rester presque stérile, à rester
+                    </w>
+
+                    <lb xml:id="pagina10_linea15" n="15"/>
+                    en tout cas dépourvue
+                    <add facs="#pag10_zona27" n="22" place="supralinear" hand="#FDS">à la fois</add>
+                    de
+                    <term>méthode</term>
+                    et
+
+                    <lb xml:id="pagina10_linea16" n="16" />
+                    de tout
+                    <term>principe</term>
+                    directeur, si elle ne tendait constam<pc facs="#pag10_zona16" n="22" force="strong">-</pc>
+
+                    <lb xml:id="pagina10_linea17" n="17" break="no" />
+                    <pc facs="#pag10_zona17" n="22" force="strong">=</pc>ment à venir
+                    <gap facs="#pag10_zona14" n="22" rend="double stroke" reason="deleted" quantity="1" unit="word" resp="#FDS"/>
+                    i<w><damage facs="#pag10_zona18" n="22" quantity="2" unit="char"><unclear reason="ink blot" agent="ink">ll</unclear></damage></w>ustrer le
+                    <term>problème</term>
+
+                    <lb xml:id="pagina10_linea18" n="18"/>
+                    <term>général</term>
+                    du
+                    <term>langage</term> 
+                    <pc force="strong" facs="#pag10_zona36" n="22">-</pc> , si elle ne
+                    <gap facs="#pag10_zona20" n="22" rend="double stroke" reason="illegible" quantity="2" unit="word" resp="#FDN"/>
+                    cherchai<w><damage facs="#pag10_zona21" n="22" agent="rubbing" degree="low" quantity="1" unit="char">t</damage></w>
+
+                    <lb xml:id="pagina10_linea19" n="19"/>
+                    à dégager de chaque fait particulier
+                    <add facs="#pag10_zona28" n="22" place="supralinear" hand="#FDS">qu’elle observe</add>
+                    le sens et
+
+                    <lb xml:id="pagina10_linea20" n="20"/>
+                    le profit net qui en
+                    <w>
+                        <subst facs="#pag10_zona32" n="22">
+                            <del hand="#EF">resulte</del>
+                            <add hand="#FDS">résultent</add>
+                        </subst>
+                    </w>
+                    pour notre connaissa<w><damage quantity="1" unit="char"><unclear reason="faded">n</unclear></damage></w><add facs="#pag10_zona33" n="22" quantity="2" unit="char" place="below" hand="#FDS">ce</add>
+
+
+                    <lb xml:id="pagina10_linea21" n="21"/>
+                    des opérations possibles
+                    <w>
+                        <damage quantity="1" unit="word" agent="ink blot"/>
+                        <subst facs="#pag10_zona22" n="22">
+                            <del rend="overstrike" quantity="3" unit="word">du sens linguistic</del>
+                            <add place="supralinear" hand="#FDS" quantity="4" unit="word">
+                                de l'<term>instinct humain</term>
+                                appliqué
+                            </add>
+                        </subst>
+                    </w>
+
+                    <lb xml:id="pagina10_linea22" n="22"/>
+                    <gap rend="overstrike" reason="illegible" quantity="1" unit="word" resp="#FDS" />
+                    <w>
+                        <del facs="#pag10_zona35" n="22" rend="overstrike" quantity="1" unit="word" resp="#FDS">
+                            de l'ho<am>m&#771;</am>e.
+                        </del>
+                        <add facs="#pag10_zona34" n="22" place="supralinear" resp="#FDS">
+                            à la
+                            <term>langue</term>.
+                        </add>
+                    </w>
+                    <gap facs="#pag10_zona23" n="22" rend="overstrike" reason="deleted" quantity="4" unit="word" resp="#FDS"/>
+
+                </ab>
+
+                <ab type="parag" n="4" xml:id="pagina10_paragrafo4">
+                    Et ceci n’a pas une signifi<pc facs="#pag10_zona25" n="23" force="strong">-</pc>
+
+                    <lb xml:id="pagina10_linea23" n="23" break="no"/>
+                    <pc facs="#pag10_zona26" n="23" force="strong">=</pc>cation vague et générale: toute personne un peu
+
+                    <lb xml:id="pagina10_linea24" n="24" />
+                    versée dans nos études sait avec quelle joie
+                    <lb xml:id="pagina10_linea25" n="25" />
+                    <add place="below" quantity="7" unit="word" facs="#pag10_zona37" n="23" hand="#FDS">et quel triomphe chaque chercheur signale un</add>
+                </ab>
+
+                <pb xml:id="trascriz_pagina11" />
+
+                <ab type="parag" n="5" xml:id="pagina11_paragrafo1">
+
+                    
+                    
+
+                    <lb xml:id="Pagina11_Riga1" n="1"/>
+                    <add place="supralinear" hand="#FDS" cert="low" facs="#pag11_zona45" n="24"></add>
+                    cas théorique nouveau,
+                    <damage agent="ink blot" hand="#FDS" facs="#pag11_zona1" n="24">quand</damage>
+                    il le rencontre
+
+                    <lb xml:id="Pagina11_Riga2" n="2"/>
+                    n’importe où, dans le dernier de nos
+                    <term type="elemento terminologico">patois</term>,
+
+                    <lb xml:id="Pagina11_Riga3" n="3"/>
+                    ou dans le plus i<unclear facs="#pag11_zona2" n="24">n</unclear>fime
+                    <term type="elemento terminologico">idiome</term>
+                    polynésien.
+
+                </ab>
+
+                <ab type="parag" n="6" xml:id="pagina11_paragrafo2">
+
+                    <!-- pericope e nuova linea insieme -->
+                    <lb xml:id="Pagina11_Riga4" n="4"/>
+                    C’est une pierre qu’il apporte à l’édifice
+
+                    <lb xml:id="Pagina11_Riga5" n="5"/>
+                    et qui ne sera pas détruite.
+
+                </ab>
+
+                <ab type="parag" n="7" xml:id="pagina11_paragrafo3">
+                    À tout instant, dans
+
+                    <lb xml:id="Pagina11_Riga6" n="6"/>
+
+                    <choice xml:lang="fr" facs="#pag11_zona40" n="26">
+                        <abbr>tte</abbr>
+                        <expan>t<ex>ou</ex>te</expan>
+                    </choice>
+
+                    branche de
+                    <term type="elemento terminologico">
+                        la science
+                        <subst facs="#pag11_zona8" n="26">
+                            <del rend="overstrike">
+                                <gap reason="illegible" quantity="1" unit="char"/>
+                            </del>
+                        </subst>
+                        des langues</term>,
+
+                    <subst facs="#pag11_zona9" n="26">
+                        <del rend="overstrike">
+                            <unclear>ou</unclear>
+                        </del>
+                    </subst>
+
+                    <lb xml:id="Pagina11_Riga7" n="7"/>
+
+                    <subst facs="#pag11_zona3" n="26">
+                        <add place="left" hand="#FDS">
+                            <choice xml:lang="fr" facs="#pag11_zona41" n="26">
+                                <abbr>tt</abbr>
+                                <expan>t<ex>ou</ex>t</expan>
+                            </choice>
+
+                            le monde
+
+                            <subst facs="#pag11_zona5" n="26">
+                                <del rend="overstrike">
+                                    <gap reason="illegible" quantity="2" unit="word"/>
+                                </del>
+                            </subst>
+
+                            <subst facs="#pag11_zona4" n="26">
+                                <del rend="overstrike">
+                                    <damage agent="ink blot" quantity="1" unit="char"/>
+                                </del>
+                            </subst>
+
+                            e<unclear facs="#pag11_zona37" n="26">st</unclear>
+
+                            par-dessus
+                        </add>
+                    </subst>
+                    tout
+                    <subst facs="#pag11_zona7" n="26">
+                        <add place="above" hand="#FDS">anxieux actuellement</add>
+                    </subst>
+
+                    <subst facs="#pag11_zona6" n="26">
+                        <del rend="overstrike">
+                            <gap reason="illegible" quantity="1" unit="char"/>
+                        </del>
+                    </subst>
+                    <unclear facs="#pag11_zona10" n="26">de</unclear>
+                    mettre en lumière ce qui peut
+
+                    <lb xml:id="Pagina11_Riga8" n="8"/>
+                    intéresser le
+                    <term type="elemento terminologico">langage</term>, en
+                    <term type="elemento terminologico">général</term>.
+
+                    <subst facs="#pag11_zona11" n="26">
+                        <del rend="overstrike">
+                            <gap reason="illegible" quantity="3" unit="char"/>
+                        </del>
+                    </subst>
+                </ab>
+
+                <ab type="parag" n="8" xml:id="pagina11_paragrafo4">
+
+                    <lb xml:id="Pagina11_Riga9" n="9"/>
+
+                    <subst facs="#pag11_zona15" n="27">
+                        <add place="left" hand="#FDS">Et, phénomène remarquable,</add>
+                    </subst>
+
+                    <subst facs="#pag11_zona12" n="27">
+                        <del rend="overstrike">
+                            <gap reason="illegible" quantity="1" unit="char"/>
+                        </del>
+                    </subst>
+
+                    <pc force="strong" facs="#pag11_zona13" n="27">-</pc>
+                    <unclear facs="#pag11_zona14" n="27">les</unclear>
+                    observations
+
+                   
+                    <add facs="#pag11_zona17" n="27"  place="above" hand="#FDS">théoriques</add>
+                    
+                    qu’apportent ceux
+
+                    <lb xml:id="Pagina11_Riga10" n="10"/>
+                    qui ont concentré leur étude sur telle ou telle
+
+                    <lb xml:id="Pagina11_Riga11" n="11"/>
+                    branche
+
+                    <subst facs="#pag11_zona18" n="27">
+                        <add place="above" hand="#FDS">
+                            spéciale
+
+                            <choice xml:lang="fr" facs="#pag11_zona42" n="27">
+                                <abbr>co<am>m&#771;</am>e</abbr>
+                                <expan>co<ex>m</ex>me</expan>
+                            </choice>
+
+                            le germanique, le roman,
+                        </add>
+                    </subst>
+
+                    <unclear facs="#pag11_zona39" n="27">s</unclear>ont
+
+                    <subst facs="#pag11_zona19" n="27">
+                        <del rend="overstrike">
+                            <gap reason="illegible" quantity="1" unit="char"/>
+                        </del>
+                    </subst>
+
+                    beaucoup plus appréciées
+
+                    <lb xml:id="Pagina11_Riga12" n="12"/>
+
+                    <subst facs="#pag11_zona16" n="27">
+                        <add place="left" hand="#FDS">
+                            et considérées
+                        </add>
+                        <add place="above" hand="#FDS">
+                            encore
+                        </add>
+                    </subst>
+
+                    <subst facs="#pag11_zona20" n="27">
+                        <del rend="overstrike">
+                            <gap reason="illegible" extent="9 words"/>
+                        </del>
+                    </subst>
+
+
+                    <lb xml:id="Pagina11_Riga13" n="13"/>
+                    que les observations des linguistes embrassant
+
+                    <lb xml:id="Pagina11_Riga14" n="14"/>
+                    une plus grande série de langues.
+
+                </ab>
+
+                <ab type="parag" n="9" xml:id="pagina11_paragrafo5">
+
+                    On se rend
+
+                    <lb xml:id="Pagina11_Riga15" n="15"/>
+                    compte que
+
+                    <del rend="overstrike" facs="#pag11_zona21" n="28">
+						<unclear reason="illegible">ce</unclear>
+                    </del>
+
+                    c’est
+
+                    <subst facs="#pag11_zona22" n="28">
+                        <del rend="overstrike">
+                            <damage agent="ink blot" quantity="1" unit="char"/>
+                        </del>
+                    </subst>
+
+                    le détail ultime
+
+                    <subst facs="#pag11_zona23" n="28">
+                        <del rend="overstrike">
+                            <unclear reason="illegible">qu'est aussi</unclear>
+                        </del>
+                    </subst>
+
+                    <lb xml:id="Pagina11_Riga16" n="16"/>
+
+                    <subst facs="#pag11_zona24" n="28">
+                        <del rend="overstrike">
+                            <unclear reason="illegible">la raison ultime</unclear>
+                        </del>
+                    </subst>
+
+                    des phénomènes
+                    <damage agent="ink blot" facs="#pag11_zona25" n="28">qui est aussi</damage>
+
+                    <lb xml:id="Pagina11_Riga17" n="17"/>
+                    leur raison ultime, et qu’ainsi l’extrême spécia<pc force="strong" facs="#pag11_zona26" n="28">-</pc>
+
+                    <lb xml:id="Pagina11_Riga18" n="18" break="no" />
+                    <pc force="strong" facs="#pag11_zona27" n="28">=</pc>lisation peut seule servir
+
+                    <subst facs="#pag11_zona28" n="28">
+                        <add place="below" hand="#FDS">efficacement</add>
+                    </subst>
+
+                    l’extrême
+                    <term>générali<damage agent="ripped"><unclear facs="#pag11_zona29" n="28">sation</unclear></damage></term>.
+
+                </ab>
+
+                <ab type="parag" n="10" xml:id="pagina11_paragrafo6">
+
+                    <lb xml:id="Pagina11_Riga19" n="19" />
+                    Ce ne sont pas des
+                    <term>linguistes</term>
+
+                    <choice xml:lang="fr" facs="#pag11_zona31" n="29">
+                        <abbr>co<am>m&#771;</am>e</abbr>
+                        <expan>co<ex>m</ex>me</expan>
+                    </choice>
+
+                    <name type="Antroponimo">Friedrich Mü<damage agent="handwriting"><unclear facs="#pag11_zona33" n="29">ller</unclear></damage></name>,
+
+                    <lb xml:id="Pagina11_Riga20" n="20"/>
+
+                    <subst facs="#pag11_zona30" n="29">
+                        <add place="left" hand="#FDS">
+                            de
+                            <orgName type="institution">l’Université de Vienne</orgName></add></subst>,
+                    qui
+
+                    <subst facs="#pag11_zona34" n="29">
+                        <del rend="overstrike">co&#241;aissance</del>
+                        <add place="above" hand="#FDS">embrassent</add>
+                    </subst>
+
+                    à peu près
+                    <unclear facs="#pag11_zona36" n="29">tous</unclear>
+                    les
+                    <term>idiomes</term>
+                    du
+
+                    <lb xml:id="Pagina11_Riga21" n="21"/>
+                    globe, qui ont jamais fait faire un pas à la
+
+                    <lb xml:id="Pagina11_Riga22" n="22"/>
+
+                    <choice xml:lang="fr" facs="#pag11_zona38" n="29">
+                        <abbr>co<am>&#241;</am>aissance</abbr>
+                        <expan>co<ex>n</ex>naissance</expan>
+                    </choice>
+
+                    du
+                    <term>langage</term>; mais
+
+                    <subst facs="#pag11_zona32" n="29">
+                        <del rend="overstrike">
+                            <gap reason="illegible" extent="1 word"/>
+                        </del>
+                    </subst>
+
+                    les
+
+                    <lb xml:id="Pagina11_Riga23" n="23"/>
+                    noms qu’on aurait à citer
+                    <expan facs="#pag11_zona43" n="29">dans ce</expan>
+                    sens seraient
+
+                    <lb xml:id="Pagina11_Riga24" n="24"/>
+                    des noms de romanistes comme
+                    <name type="Antroponimo">M. Gaston Paris</name>,
+
+                    <lb xml:id="Pagina11_Riga25" n="25"/>
+                    <name type="Antroponimo">M. Paul Meyer</name>,
+
+                    <subst facs="#pag11_zona35" n="29">
+                        <add place="above" hand="#FDS">
+                            <name type="Antroponimo">
+                                M. Schuchardt</name></add></subst>,
+
+                    des noms de germanistes comme
+
+                    <lb xml:id="Pagina11_Riga26" n="26"/>
+                    <name type="Antroponimo">M. Hermann Paul</name>, 
+                    des noms de
+                    <orgName type="institution">l’école russe</orgName>
+                    s’occupant spécia<pc force="strong" facs="#pag11_zona44" n="29">-</pc>
+
+                    <pb xml:id="pagina12" n="12" />
+                    <lb xml:id="pagina12_linea1" n="1" break="no" />
+                    <pc force="strong" facs="#pag11_zona44" n="29" >=</pc>lement
+                    
+                    <!-- abbiamo codificato fino alla fine della pericope però facendo parte della pagina 12 l'abbiamo commentata -->
+                    <!-- du russe et du slave, comme <name type="Antroponimo">M. N. Baudouin de Courtenay</name>, <name type="Antroponimo">M. Kruszewski</name>. -->
+
+                </ab>
+
+            </div>
+
+            <!-- Traduzione dei testi -->
+            <div type="traduzione" xml:lang="it">
+
+                <pb xml:id="translation_pagina10" />
+
+                <ab n="20" corresp="#pagina10_paragrafo1">
+                    Senza posa, dunque, lo studio generale del linguaggio si alimenta delle osservazioni
+                    di ogni sorta che saranno state compiute nel campo particolare di questa o quella lingua.
+                </ab>
+
+                <ab n="21" corresp="#pagina10_paragrafo2">
+                    Anche a supporre che l’esercizio dell’espressione linguistica [parole]
+                    costituisca nell’uomo una funzione naturale, che è il punto di vista eminentemente
+                    falso in cui si pongono certe scuole di antropologi e di linguisti, bisognerebbe ancora
+                    assolutamente sostenere che l’esercizio di tale funzione non è abbordabile per la scienza
+                    che dal lato della lingua o dal lato delle lingue esistenti.
+                </ab>
+
+                <ab n="22" corresp="#pagina10_paragrafo3">
+                    Ma, per converso, lo studio di tali lingue esistenti si condannerebbe a rimanere pressoché
+                    sterile, e in ogni caso a restare sprovvisto sia di metodo che di qualsiasi principio direttivo,
+                    se esso non tendesse costantemente ad illustrare il problema generale del linguaggio, se esso non
+                    cercasse di enucleare da ogni fatto particolare che osserva il senso e profitto netto che ne
+                    derivano per la nostra conoscenza delle operazioni possibili dell’istinto umano applicato alla lingua.
+                </ab>
+
+                <ab n="23" corresp="#pagina10_paragrafo4">
+                    E tutto ciò non ha un senso vago e generale: ogni persona un po’ versata nei nostri studi sa con
+                    quale gioia e quale trionfo ogni ricercatore segnali
+                </ab>
+
+                <pb xml:id="translation_pagina11" />
+
+                <ab n="24" corresp="#pagina11_paragrafo1">
+                    un caso teorico nuovo, allorché lo ritrova da qualche parte, nell’ultimo dei nostri dialetti [patois],
+                    o nel più sparuto idioma polinesiano.
+                </ab>
+
+                <ab n="25" corresp="#pagina11_paragrafo2">
+                    È una pietra che aggiunge all’edificio, e che non sarà distrutta.
+                </ab>
+
+                <ab n="26" corresp="#pagina11_paragrafo3">
+                    In ogni momento, in ogni branca della scienza delle lingue, chiunque al giorno d’oggi è ansioso
+                    soprattutto di mettere in luce ciò che può interessare il linguaggio, in generale.
+                </ab>
+
+                <ab n="27" corresp="#pagina11_paragrafo4">
+                    E – fenomeno notevole – le osservazioni teoriche che offrono coloro che hanno concentrato
+                    il proprio studio su questa o quella branca specialistica come il germanico, il romanzo,
+                    sono molto apprezzate e considerate, ancor più delle osservazioni dei linguisti che si occupano
+                    d’un insieme più vasto di lingue.
+                </ab>
+
+                <ab n="28" corresp="#pagina11_paragrafo5">
+                    Finiamo per accorgerci che è il dettaglio ultimo dei fenomeni
+                    ciò che è anche la loro ultima ragione, sicché solamente l’estrema specializzazione può servire
+                    al meglio l’estrema generalizzazione.
+                </ab>
+
+                <ab n="29" corresp="#pagina11_paragrafo6">
+                    Non sono linguisti come Friedrich Müller, dell’Università di Vienna, che abbracciano più o meno
+                    tutti gli idiomi della terra, che abbiano mai fatto fare un passo in avanti alla conoscenza del linguaggio;
+                    ma i nomi che si dovrebbero citare in questo senso sarebbero nomi di romanisti, come Gaston Paris,
+                    Paul Meyer, Schuchardt, nomi di germanisti come Hermann Paul,
+                    nomi della scuola russa che s’occupa in maniera peculiare del russo e dello slavo, come N. Baudouin slave,
+                    come M. N. Baudouin de Courtenay, M. Kruszewski.
+                </ab>
+            </div>
+
+            <div type="autore" xml:lang="it">
+
+                <!-- autore -->
+                <listPerson>
+                    <person xml:id="FDS">
+                        <persName role="linguist">
+                            Note sull'autore:
+                            <forename>Ferdinand</forename> 
+                            <surname>De Saussure</surname>
+                        </persName>
+                        <birth>
+                            è nato il
+                            <date when="1857-11-26">26 novembre 1857</date>
+                            a
+                            <placeName>Ginevra</placeName>
+                        </birth>
+                        <death>
+                            ed è morto il
+                            <date when="1913-02-22">22 febbraio 1913</date>
+                            a
+                            <placeName>Vufflens le Château.</placeName>
+                        </death>
+
+                    </person>
+
+                </listPerson>
+
+            </div>
+            
+        </body>
+        <back>
+            <list type="terminology">  <!-- Terminologia -->
+                <label>
+                    <term xml:lang="fr">Étude des langues</term>
+                    <term xml:lang="it">Studio delle lingue</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica_storica">
+                        Lo studio delle lingue, o glottologia, si occupa dello studio storico delle lingue e delle loro famiglie e
+                        gruppi di appartenenza, delle origini etimologiche delle parole, considerando i loro rapporti e sviluppi
+                        in diacronia.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr">Linguiste</term>
+                        <term xml:lang="it">Linguista</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://www.treccani.it/vocabolario/linguista/#:~:text=Chi%20si%20dedica%20allo%20studio,sign.%2C%20%C3%A8%20oggi%20sinon.">
+                    Linguista: chi si dedica allo studio delle lingue (o anche soltanto, o in modo specifico, della propria lingua), 
+                    soprattutto da un punto di vista teorico, sistematico e storico; studioso di linguistica. 
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:lang="fr">Méthode</term>
+                    <term xml:lang="it">Metodo</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://www.treccani.it/vocabolario/metodo/">
+                        In genere, il modo, la via, il procedimento seguito nel perseguire uno scopo, nello svolgere una qualsiasi attività, 
+                        secondo un ordine e un piano prestabiliti in vista del fine che s’intende raggiungere.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Problème</term>
+                    <term xml:lang="it">Problema</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://www.treccani.it/vocabolario/problema/">
+                        Problema: ogni quesito di cui si richieda ad altri o a sé stessi la soluzione, partendo di solito da elementi noti.   
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Instinct humain</term>
+                    <term xml:lang="it">Istinto umano</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://www.treccani.it/enciclopedia/istinto/">
+                        Istinto: comportamento innato proprio di una specie animale, che si svolge secondo una determinata sequenza 
+                        temporale ed è sempre rivolto a una precisa finalità. L’istinto provoca negli animali e nell’uomo risposte o 
+                        reazioni caratteristiche, sostanzialmente fisse e immediate, a determinate situazioni.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Patois</term>
+                    <term xml:lang="it">Dialetto</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://www.treccani.it/enciclopedia/dialetto/">
+                        Dialetto: sistema linguistico di ambito geografico o culturale per lo più limitato, che non ha raggiunto o che ha 
+                        perduto autonomia e prestigio di fronte agli altri sistemi con i quali costituisce geneticamente un gruppo. 
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Idiome</term>
+                    <term xml:lang="it">Idioma</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://www.treccani.it/enciclopedia/idioma/">
+                    Idioma: lingua propria di una nazione. In particolare, in linguistica, il conglomerato di sistemi che coesistono 
+                    nell’ambito di una data comunità storico-sociologica. 
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">General</term>
+                    <term xml:lang="it">Generale</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="">
+                    Generale: che concerne il genere, e non la specie o l’individuo (contrapp. perciò a speciale, particolare). 
+                    Quindi, nell’uso comune, si riferisce a tutto un insieme di persone o abbraccia tutto un ordine di fatti.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Généralisation</term>
+                    <term xml:lang="it">Generalizzazione</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="">
+                    Generalizzazione: l’atto, il fatto di generalizzare, di essere generalizzato: generalizzazione di un uso, di un metodo, di 
+                    un giudizio. In psicologia clinica, fenomeno per cui stimoli simili a quello condizionato possono provocare lo stesso tipo di risposta.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Langage</term>
+                    <term xml:lang="it">Linguaggio</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://www.treccani.it/enciclopedia/linguaggio/">
+                    Il linguaggio è una forma di condotta comunicativa atta a trasmettere informazioni e a stabilire un rapporto di interazione
+                    che utilizza simboli aventi identico valore per gli individui appartenenti a uno stesso ambiente socioculturale.
+                    Dalle peculiarità della lingua rispetto a ogni altro codice semiologico derivano le peculiarità del linguaggio
+                    verbale rispetto a ogni altro tipo di semiosi.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Science des langues</term>
+                    <term xml:lang="it">Scuola della lingua</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica">
+                    La linguistica è lo studio scientifico del linguaggio verbale umano e delle sue strutture. 
+                    Essa include lo studio della fonetica, della grammatica, del lessico, della morfologia, della sintassi e della testualità. 
+                    È una disciplina scientifica, in quanto si basa su approcci empirici e oggettivi. 
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Langue</term>
+                    <term xml:lang="it">Lingua</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://www.treccani.it/enciclopedia/lingua/">
+                    Il complesso delle parole e locuzioni usate da tutto un popolo come mezzo comune per l’espressione e lo scambio di pensieri 
+                    e sentimenti, con caratteri tali da costituire un organismo storicamente determinato, sottoposto a proprie leggi fonetiche, 
+                    morfologiche e sintattiche che sono anch’esse parte integrante della lingua.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr">Point de vue</term>
+                    <term xml:lang="it">Punto di vista</term>
+                </label>
+                    <item>
+                        <gloss xml:lang="it" source="https://www.treccani.it/vocabolario/vista/">
+                        Per punto di vista si intende il modo soggettivo di vedere i fatti, le situazioni e i problemi, e quindi di intendere, di valutare.
+                        </gloss>
+                    </item>
+                <label>
+                    <term xml:lang="fr">Principe</term>
+                    <term xml:lang="it">Principio</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" source="https://it.wikipedia.org/wiki/Principio">
+                    Un principio è un concetto che indica le basi e i presupposti iniziali su cui si basa o poggia
+                    una teoria e che assumono, per convenzione o riconosciuto diritto, validità generale ed universale
+                    all'interno della teoria stessa.
+                    </gloss>
+                </item>
+            </list>
+            
+            <listOrg>
+                <org source="https://it.wikipedia.org/wiki/Universit%C3%A0_di_Vienna">
+                    <name> Università di Vienna</name>
+                    <note> L'Università di Vienna (tedesco: Universität Wien) è un'università pubblica di Vienna. Aperta nel 1365, è una delle più antiche d'Europa. 
+                            Sebbene non possa essere classificata a pieno titolo come università generalista, come da tradizione austriaca, offre più di 130 corsi di studio, 
+                            ed è solitamente indicata dagli austriaci come Hauptuni. 
+                    </note>
+                </org>
+                <org source="https://www.fabert.com/etablissement-prive/1844/ECOLE-D-ANTHROPOLOGIE.html">
+                        <name>Ecole d'anthropologie</name>
+                </org>
+
+            </listOrg>
+            
+            <listPerson> 
+                <person source="https://it.wikipedia.org/wiki/Paul_Meyer_(filologo)">
+                    <ab> <persName> Paul Meyer </persName> </ab>
+                    <p> Formatosi alla École nationale des chartes di Parigi come archivista e medievista, iniziò la sua carriera nel 1863 entrando a far parte del dipartimento manoscritti della Bibliothèque nationale de France.
+                    </p> 
+                </person>
+                        
+                <person source="https://it.wikipedia.org/wiki/Hermann_Paul">
+                    <ab> <persName>Paul Theodor Otto Hermann</persName></ab>
+                    <p> È stato un linguista e filologo tedesco, esponente della Scuola neogrammaticale che influenzò profondamente l'indoeuropeistica tra XIX e XX secolo.
+                    </p> 
+                </person>
+
+                <person source="https://it.wikipedia.org/wiki/Gaston_Paris">
+                    <ab> <persName>Gaston Paris</persName></ab>
+                    <p> Allievo di Friedrich Diez, si può dire che sia stato lui ad avviare la moderna ricerca storico-filologica, così come il suo maestro aveva avviato quella linguistica.
+                         Venne candidato al Premio Nobel per la letteratura nel 1901, 1902 e 1903.
+                    </p> 
+                </person>
+
+                <person source="https://it.wikipedia.org/wiki/Hugo_Schuchardt">
+                    <ab> <persName>Hugo Ernst Mario Schuchardt</persName></ab> 
+                    <p> È stato un linguista tedesco. Maestro indiscusso degli studi di romanistica, si occupò anche di basco e di lingue miste come i pidgin, i creoli e la lingua franca del Mediterraneo.</p>
+                </person>
+
+                <person source="https://it.wikipedia.org/wiki/Friedrich_M%C3%BCller_(linguista)">
+                    <ab> <persName> Friedrich Müller</persName></ab> 
+                    <p> Studiò presso l'Università di Gottinga, poi si trasferì presso l'Università di Vienna (1853-1857), dove fu anche bibliotecario dal 1858 al 1866; 
+                        dopo questo ruolo fu premiato diventando professore di filologia comparata e sanscrito.
+                        Fu membro dell'Accademia austriaca delle scienze avendo fama di grandissimo studioso tra i suoi contemporanei, in particolare della filologia comparata.
+                    </p> 
+                </person>
+            </listPerson>
+
+        </back>    
+    
+    </text>
+
+</TEI>

@@ -1,0 +1,406 @@
+body {
+    background-image: url("newspaper-texture.jpg");
+}
+
+td {
+    vertical-align: top;
+}
+
+.footer {
+    color: black;
+    font-size: 1.7em;
+    background-color:transparent;
+    padding: auto;
+    border-radius: 25px;
+    border: 4px solid black;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("newspaper-texture.jpg");
+}
+
+#contenitore_footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    pointer-events: none;
+}
+
+#tabella_trascrizione_e_facsimile {
+    margin-bottom: 22em;
+}
+
+.tei_abbr {
+    display: var(--visualizza-varianti);
+    color:black;
+}
+
+.tei_expan {
+    color: var(--colore-expan);
+}
+
+.tei_orig {
+    color:brown;
+}
+
+.tei_reg {
+    display: var(--visualizza-varianti);
+    color: #ff6a00;
+}
+
+
+.tei_del {
+    display: var(--visualizza-varianti);
+    color:red;
+    text-decoration: line-through;
+}
+
+.tei_del_overwrite {
+    display: var(--visualizza-varianti); 
+    color:red;
+    font-weight: bold;
+}
+
+.tei_add {
+    color: var(--colore-add);
+}
+
+.tei_pc {
+    color:var(--colore-pc);
+}
+
+.tei_pc_fds {
+    display: var(--visualizza-varianti);
+    color:rgb(31, 16, 245);
+}
+
+:root {
+    --colore-antroponimo : transparent;
+    --colore-termine : brown;
+    --colore-termine-background : transparent;
+    --colore-istituzione : transparent;
+    --colore-add : brown;
+    --colore-expan : brown;
+    --visualizza-varianti : none;
+    --dim-testo-trascrizione : 1.2em;
+    --colore-unclear : transparent;
+    --colore-pc : brown;
+    --background-damage : transparent; 
+}
+
+.tei_antroponimo {
+    background-color: var(--colore-antroponimo);
+}
+
+.tei_term {
+    color: var(--colore-termine);
+    background-color: var(--colore-termine-background);
+}
+
+.tei_istituzione {
+    background-color: var(--colore-istituzione);
+}
+
+.tei_hi_italic {
+    font-style: italic;
+}
+
+.tei_sic {
+    display: var(--visualizza-varianti);
+    color:rgb(37, 4, 114);
+}
+
+.tei_am {
+    display: var(--visualizza-varianti);
+    color:rgb(23, 138, 119);
+}
+
+.titolo1 {
+    font-size:3em;
+    font-weight: bold;
+    color: rgb(141, 21, 21); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+    border: 4px solid brown;
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    width: fit-content;
+    margin-left:18% ;
+    text-align: center;
+    
+}
+
+#trascrizione {
+    background-image: url("sfondo.png"); 
+    background-size: 100% auto ;
+    width: max-content ;
+    font-size: var(--dim-testo-trascrizione);
+    color:brown;
+    font-weight:bold ;
+    padding: 5%;
+    text-align:left;
+    
+}
+
+.titolo2{
+    color:black;
+    font-size:2em;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom:3%;
+}
+
+.titolo3{
+    color:black;
+    font-size:1.7em;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-bottom:3%;
+}
+
+.tei_sourceDesc {
+    color:rgb(139, 65, 4);
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #ddc1a9;
+    margin-right: 10px;
+    margin-left:10px;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
+
+.tei_msContents {
+    color: brown;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: #ddc1a9;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
+
+.tei_physDesc{
+    color:rgba(3, 65, 49, 0.979);
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #ddc1a9;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    
+}
+
+.tei_profileDesc{
+    color:rgba(17, 2, 73, 0.979);
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #ddc1a9;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
+
+.tei_listPerson{
+    color:rgba(100, 22, 70, 0.979);
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #ddc1a9;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+}
+
+.tei_publicationStmt{
+    color:black;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 4px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ddc1a9;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.tei_unclear {
+    background-color: var(--colore-unclear);
+}
+.tei_damage{
+    background-color: var(--background-damage);
+}
+
+#traduzione{
+    background-color: #cbbc93;
+    color:black;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
+    pointer-events: visible;
+}
+
+#facsimile_pag10{
+    width: 90% ;
+    margin-left: 10%;
+}
+
+#facsimile_pag11{
+    width: 90% ;
+    margin-left: 10%;
+}
+
+#img_pagina10{
+    width: 100% ;
+}
+
+#img_pagina11{
+    width: 100% ;
+}
+
+.contenitore_facsimile {
+    position: relative;
+    width: fit-content;
+}
+
+.rettangolo_zona {
+    position: absolute;
+    border: 1px solid white;
+    background-color: rgba(135, 206, 250, 0.5);
+    width: 150px;
+    height: 100px;
+}
+
+.facs_selezionato {
+    color : white;
+    background-color: yellowgreen;
+}
+
+.facs_selezionato * {
+    color : white;
+    background-color: yellowgreen;
+}
+
+#contenitore_bottoni {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.bottone {
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 12px 28px;
+    border: 4px solid brown;
+    background-color: transparent;
+    color:brown;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+.bottone:hover {
+    background-color:#ebdbcb;
+}
+
+#legenda {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: brown;
+    margin: auto;
+}
+
+.legenda_term {
+    color : rgb(122, 36, 122);
+    background-color : rgb(255, 230, 0);
+}
+
+.legenda_antroponimo {
+    background-color: rgb(255, 0, 221);
+}
+
+.legenda_istituzione {
+    background-color: rgb(222, 113, 255);
+}
+
+.legenda_unclear {
+    background-color : orange;
+}
+
+.legenda_abbr {
+    color : black;
+}
+
+.legenda_expan {
+    color : darkolivegreen;
+}
+
+.legenda_add {
+    color : green;
+}
+
+.legenda_del {
+    color:red;
+    text-decoration: line-through;
+}
+
+.legenda_del_overwrite {
+    color:red;
+    font-weight: bold;
+}
+
+.legenda_am {
+    color:rgb(23, 138, 119);
+}
+
+.legenda_pc {
+    color:rgb(31, 16, 245);
+}
+
+.legenda_sic {
+    color:rgb(37, 4, 114);
+}
+
+.legenda_damage{
+    background-color: greenyellow;
+}
+
+.legenda_reg{
+    color: orange;
+}
+
+.contenitore_entita {
+    height:450px;
+    overflow:auto;
+}
+
+.tabella_entita {
+    border-collapse:separate;
+    border-spacing: 0 1em;
+    margin: 0 10px;
+}
+
+.titolo_entita {
+    text-align:left;
+    color:brown;
+    font-style:italic;
+}
+
+.descr_entita {
+    text-align:justify;
+    color:black;
+}
