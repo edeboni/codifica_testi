@@ -257,10 +257,10 @@
                     <w>t<subst facs="#pag10_zona1" n="20"><del rend="overtype">t</del><add hand="#FDS">o</add></subst>u<unclear reason="faded">te</unclear></w>
 
                     <lb xml:id="pagina10_linea3" n="3"/>
-                    sorte qui auront été <choice facs="#pag10_zona39" n="20"><sic resp="#EF">laites</sic><corr>faites</corr></choice> dans le champ par<pc force="strong" facs="#pag10_zona2" n="20">-</pc>
+                    sorte qui auront été <choice facs="#pag10_zona39" n="20"><sic resp="#EF">laites</sic><corr>faites</corr></choice> dans le champ par<pc force="weak" facs="#pag10_zona2" n="20">-</pc>
 
                     <lb xml:id="pagina10_linea4" n="4" break="no"/>
-                    <pc force="strong" facs="#pag10_zona3" n="20">=</pc>ticulier de telle ou telle
+                    <pc force="weak" facs="#pag10_zona3" n="20">=</pc>ticulier de telle ou telle
                     <term>langue</term>.
 
                 </ab>
@@ -358,10 +358,10 @@
                     <lb xml:id="pagina10_linea16" n="16" />
                     de tout
                     <term>principe</term>
-                    directeur, si elle ne tendait constam<pc facs="#pag10_zona16" n="22" force="strong">-</pc>
+                    directeur, si elle ne tendait constam<pc facs="#pag10_zona16" n="22" force="weak">-</pc>
 
                     <lb xml:id="pagina10_linea17" n="17" break="no" />
-                    <pc facs="#pag10_zona17" n="22" force="strong">=</pc>ment à venir
+                    <pc facs="#pag10_zona17" n="22" force="weak">=</pc>ment à venir
                     <gap facs="#pag10_zona14" n="22" rend="double stroke" reason="deleted" quantity="1" unit="word" resp="#FDS"/>
                     i<w><damage facs="#pag10_zona18" n="22" quantity="2" unit="char"><unclear reason="ink blot" agent="ink">ll</unclear></damage></w>ustrer le
                     <term>problème</term>
@@ -370,7 +370,7 @@
                     <term>général</term>
                     du
                     <term>langage</term> 
-                    <pc force="strong" facs="#pag10_zona36" n="22">-</pc> , si elle ne
+                    <pc force="weak" facs="#pag10_zona36" n="22">-</pc> , si elle ne
                     <gap facs="#pag10_zona20" n="22" rend="double stroke" reason="illegible" quantity="2" unit="word" resp="#FDN"/>
                     cherchai<w><damage facs="#pag10_zona21" n="22" agent="rubbing" degree="low" quantity="1" unit="char">t</damage></w>
 
@@ -419,10 +419,10 @@
                 </ab>
 
                 <ab type="parag" n="4" xml:id="pagina10_paragrafo4">
-                    Et ceci n’a pas une signifi<pc facs="#pag10_zona25" n="23" force="strong">-</pc>
+                    Et ceci n’a pas une signifi<pc facs="#pag10_zona25" n="23" force="weak">-</pc>
 
                     <lb xml:id="pagina10_linea23" n="23" break="no"/>
-                    <pc facs="#pag10_zona26" n="23" force="strong">=</pc>cation vague et générale: toute personne un peu
+                    <pc facs="#pag10_zona26" n="23" force="weak">=</pc>cation vague et générale: toute personne un peu
 
                     <lb xml:id="pagina10_linea24" n="24" />
                     versée dans nos études sait avec quelle joie
@@ -558,7 +558,7 @@
                         </del>
                     </subst>
 
-                    <pc force="strong" facs="#pag11_zona13" n="27">-</pc>
+                    <pc force="weak" facs="#pag11_zona13" n="27">-</pc>
                     <unclear facs="#pag11_zona14" n="27">les</unclear>
                     observations
 
@@ -661,10 +661,10 @@
                     <damage agent="ink blot" facs="#pag11_zona25" n="28">qui est aussi</damage>
 
                     <lb xml:id="Pagina11_Riga17" n="17"/>
-                    leur raison ultime, et qu’ainsi l’extrême spécia<pc force="strong" facs="#pag11_zona26" n="28">-</pc>
+                    leur raison ultime, et qu’ainsi l’extrême spécia<pc force="weak" facs="#pag11_zona26" n="28">-</pc>
 
                     <lb xml:id="Pagina11_Riga18" n="18" break="no" />
-                    <pc force="strong" facs="#pag11_zona27" n="28">=</pc>lisation peut seule servir
+                    <pc force="weak" facs="#pag11_zona27" n="28">=</pc>lisation peut seule servir
 
                     <subst facs="#pag11_zona28" n="28">
                         <add place="below" hand="#FDS">efficacement</add>
@@ -751,11 +751,11 @@
                     <name type="Antroponimo">M. Hermann Paul</name>, 
                     des noms de
                     <orgName type="institution">l’école russe</orgName>
-                    s’occupant spécia<pc force="strong" facs="#pag11_zona44" n="29">-</pc>
+                    s’occupant spécia<pc force="weak" facs="#pag11_zona44" n="29">-</pc>
 
                     <pb xml:id="pagina12" n="12" />
                     <lb xml:id="pagina12_linea1" n="1" break="no" />
-                    <pc force="strong" facs="#pag11_zona44" n="29" >=</pc>lement
+                    <pc force="weak" facs="#pag11_zona44" n="29" >=</pc>lement
                     
                     <!-- abbiamo codificato fino alla fine della pericope però facendo parte della pagina 12 l'abbiamo commentata -->
                     <!-- du russe et du slave, comme <name type="Antroponimo">M. N. Baudouin de Courtenay</name>, <name type="Antroponimo">M. Kruszewski</name>. -->
